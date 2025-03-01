@@ -197,11 +197,11 @@ elif selected == '🩺 Kidney Disease Prediction':
     with col1:
         bu = get_float_input("Blood Urea", min_value=0)
     with col2:
-        sc = get_float_input("Serum Creatinine", min_value=0.0,max_value=9.025)
+        sc = get_float_input("Serum Creatinine", min_value=0.0,max_value=80.0)
     with col3:
         sod = get_float_input("Sodium", min_value=0)
     with col4:
-        pot = get_float_input("Potassium", min_value=0)
+        pot = get_float_input("Potassium", min_value=0.0)
     with col5:
         hemo = get_float_input("Hemoglobin", min_value=0.0,max_value=20.025)
 
